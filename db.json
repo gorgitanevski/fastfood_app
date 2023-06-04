@@ -1,0 +1,250 @@
+{
+  "menu": {
+    "burgers": [
+      {
+        "id": 1,
+        "name": "Classic Burger",
+        "type": "burger",
+        "price": 5,
+        "ingredients": ["200gr beef", "onion", "salad", "ketchup"],
+        "image": "assets/image/burger.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Cheese Burger",
+        "type": "burger",
+        "price": 8,
+        "ingredients": ["200gr beef", "cheese", "onion", "salad", "ketchup"],
+        "image": "assets/image/cheeseburger.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Smash Burger",
+        "type": "burger",
+        "price": 9,
+        "ingredients": [
+          "3x 100gr beef",
+          "3 slice cheese",
+          "onion",
+          "salad",
+          "ketchup",
+          "potato"
+        ],
+        "image": "assets/image/smesh.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Caprese Burger",
+        "type": "burger",
+        "price": 8,
+        "ingredients": [
+          "200gr beef",
+          "mozzarella",
+          "salad",
+          "ketchup",
+          "potato",
+          "pesto sauce"
+        ],
+        "image": "assets/image/caprese.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Vegetarian Burger",
+        "type": "burger",
+        "price": 7,
+        "ingredients": [
+          "Vegetarian meat",
+          "cheese",
+          "salad",
+          "ketchup",
+          "onion"
+        ],
+        "image": "assets/image/vegetarian.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Vegan Burger",
+        "type": "burger",
+        "price": 7,
+        "ingredients": [
+          "Vegan meat",
+          "vegan cheese",
+          "salad",
+          "ketchup",
+          "onion"
+        ],
+        "image": "assets/image/vegetarian.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Double Burger",
+        "type": "burger",
+        "price": 8,
+        "ingredients": ["400gr beef", "salad", "ketchup", "onion"],
+        "image": "assets/image/vegan.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Double Cheese Burger",
+        "type": "burger",
+        "price": 12,
+        "ingredients": ["400gr beef", "2x cheese", "salad", "ketchup", "onion"],
+        "image": "assets/image/vegan.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Chicken Burger",
+        "type": "burger",
+        "price": 7,
+        "ingredients": ["250gr chicken", "salad", "ketchup", "onion"],
+        "image": "assets/image/double-cheese.jpg"
+      }
+    ],
+    "pizzas": [
+      {
+        "id": 10,
+        "name": "Mixed Pizza",
+        "type": "pizza",
+        "price": 11.5,
+        "ingredients": ["Tomato", "cheese", "ham", "mushrooms"],
+        "image": "assets/image/mix-pizza.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Pizza Margherita",
+        "type": "pizza",
+        "price": 10.2,
+        "ingredients": ["Tomato", "cheese"],
+        "image": "assets/image/margarita.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Pizza Vesuviana",
+        "type": "pizza",
+        "price": 10.6,
+        "ingredients": ["Tomato", "cheese", "ham"],
+        "image": "assets/image/pizza-ves.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Pizza al Tonno",
+        "type": "pizza",
+        "price": 10,
+        "ingredients": ["Tomato", "cheese", "tuna", "onion"],
+        "image": "assets/image/pizza-al.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Pizza Funghi",
+        "type": "pizza",
+        "price": 10.4,
+        "ingredients": ["Tomato", "cheese", "mushrooms"],
+        "image": "assets/image/pizza-fun.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Pizza Vegetariana",
+        "type": "pizza",
+        "price": 10.5,
+        "ingredients": ["Tomato", "Cheese", "vegetables"],
+        "image": "assets/image/pizza-veg.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Pizza Picante",
+        "type": "pizza",
+        "price": 10.7,
+        "ingredients": ["Tomato", "cheese", "ham", "bacon", "hot peppers"],
+        "image": "assets/image/pizza-picante.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Prawn Pizza",
+        "type": "pizza",
+        "price": 11,
+        "ingredients": ["Tomato", "cheese", "prawns", "spinach"],
+        "image": "assets/image/pizza-span.jpg"
+      }
+    ],
+    "salad": [
+      {
+        "id": 18,
+        "name": "Greek Salad",
+        "type": "salad",
+        "price": 9.5,
+        "ingredients": [
+          "Tomatoes",
+          "peppers",
+          "cucumbers",
+          "onions",
+          "olives",
+          "Feta cheese",
+          "olive oil"
+        ],
+        "image": "assets/image/salad-gre.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Chicken Salad",
+        "type": "salad",
+        "price": 11.5,
+        "ingredients": [
+          "Selection of salads",
+          "chicken",
+          "meat",
+          "Grana Padano cheese"
+        ],
+        "image": "assets/image/salad-chiken.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Sop Salad",
+        "type": "salad",
+        "price": 7.8,
+        "ingredients": [
+          "Tomatoes",
+          "peppers",
+          "cucumbers",
+          "onions",
+          "Feta cheese",
+          "spinach"
+        ],
+        "image": "assets/image/salad-sop.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Mixed Salad",
+        "type": "salad",
+        "price": 4.0,
+        "ingredients": ["Seasonal vegetables"],
+        "image": "assets/image/salad-sop.jpg"
+      }
+    ],
+    "desserts": [
+      {
+        "id": 22,
+        "name": "Pudding",
+        "type": "salad",
+        "price": 3.5,
+        "ingredients": ["pudding", "chocolate", "raspberries"],
+        "image": "assets/image/des-pudding.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Pancakes",
+        "type": "salad",
+        "price": 4.5,
+        "ingredients": ["pudding", "chocolate", "raspberries"],
+        "image": "assets/image/des-pancakes.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Ice cake",
+        "type": "salad",
+        "price": 3.2,
+        "ingredients": ["icecream", "chocolate", "caramel", "raspberries"],
+        "image": "assets/image/des-ice.jpg"
+      }
+    ]
+  }
+}
