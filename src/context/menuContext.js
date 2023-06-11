@@ -39,8 +39,10 @@ const MenuProvider = ({ children }) => {
     }
   };
 
-  const removeItemFromCard = (coffeId) => {
-    const updatedItems = sellectCartItem.filter((item) => item.id !== coffeId);
+  const removeItemFromCard = (cardItemId) => {
+    const updatedItems = sellectCartItem.filter(
+      (item) => item.id !== cardItemId
+    );
     setSellectCartItem(updatedItems);
   };
 
