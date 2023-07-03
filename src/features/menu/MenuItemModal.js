@@ -1,4 +1,4 @@
-import { useMenu } from "../context/menuContext";
+import { useMenu } from "../../context/menuContext";
 import { Modal, Paper, Typography, Button } from "@mui/material";
 import { IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";

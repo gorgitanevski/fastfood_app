@@ -1,5 +1,5 @@
-import mainImg from "../img/main-1.jpg";
-import NavbarCom from "../components/NavbarCom";
+import mainImg from "../../img/main-1.jpg";
+import NavbarCom from "../navbar/NavbarCom";
 import { Button, Typography } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
 import { Link } from "react-router-dom";

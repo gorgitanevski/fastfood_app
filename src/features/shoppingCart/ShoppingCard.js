@@ -1,5 +1,5 @@
 import { Button, Box, Typography } from "@mui/material";
-import { useMenu } from "../context/menuContext";
+import { useMenu } from "../../context/menuContext";
 import ShoppingCardItem from "./ShoppingCartItem";
 import { IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";

@@ -1,5 +1,5 @@
 import { Paper, Typography, Button } from "@mui/material";
-import { useMenu } from "../context/menuContext";
+import { useMenu } from "../../context/menuContext";
 import { nanoid } from "@reduxjs/toolkit";
 
 const MenuCart = ({ item }) => {

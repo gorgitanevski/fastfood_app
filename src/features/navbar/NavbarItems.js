@@ -1,7 +1,7 @@
 import { Stack } from "@mui/material";
-import ShoppingCartIconButton from "./shoppingCartIconButton";
+import ShoppingCartIconButton from "../shoppingCart/shoppingCartIconButton";
 import NavLinkCom from "./NavLinkCom";
-import { useMenu } from "../context/menuContext";
+import { useMenu } from "../../context/menuContext";
 import { useMediaQuery } from "@mui/material";
 
 const NavbarItems = ({ direction, className, handleOpenShop }) => {

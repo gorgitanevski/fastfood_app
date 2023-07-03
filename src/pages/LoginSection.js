@@ -1,10 +1,10 @@
 import { Container, TextField, Button, Typography } from "@mui/material";
 import loginImg from "../img/login.jpg";
-import NavbarCom from "../components/NavbarCom";
+import NavbarCom from "../features/navbar/NavbarCom";
 import { useMediaQuery } from "@mui/material";
 import { Checkbox } from "@mui/material";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "../layouts/Footer";
 
 const LoginSection = () => {
   const isScreenBellow600px = useMediaQuery("(max-width:600px)");

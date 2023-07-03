@@ -1,5 +1,5 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import ContentImgItem from "./ContentImgItem";
+import ContentImgItem from "../layouts/ContentImgItem";
 
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";

@@ -1,13 +1,13 @@
 import { Container, Stack } from "@mui/material";
-import NavbarBg from "../components/NavbarBg";
-import MenuCart from "../components/MenuCart";
-import Footer from "../components/Footer";
+import NavbarBg from "../features/navbar/NavbarBg";
+import MenuCart from "../features/menu/MenuCart";
+import Footer from "../layouts/Footer";
 
 import { useFetchMenuQuery } from "../apis/menuApi";
-import MenuItemClick from "../components/MenuItemClick";
+import MenuItemClick from "../features/menu/MenuItemClick";
 import { useEffect, useState } from "react";
 import { menuItems } from "../utils/contents";
-import MenuItemModal from "../components/MenuItemModal";
+import MenuItemModal from "../features/menu/MenuItemModal";
 
 const MenuSection = () => {
   const { data, isError, isLoading } = useFetchMenuQuery();

@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import { useMenu } from "../context/menuContext";
+import { useMenu } from "../../context/menuContext";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 const ShoppingCardItem = ({ item }) => {

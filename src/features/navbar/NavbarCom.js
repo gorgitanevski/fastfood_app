@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import NavbarItems from "./NavbarItems";
 import MenuIcon from "@mui/icons-material/Menu";
-import ShoppingCart from "./ShoppingCard";
+import ShoppingCart from "../shoppingCart/ShoppingCard";
 
 import {
   AppBar,
@@ -14,8 +14,8 @@ import {
   Box,
 } from "@mui/material";
 
-import ShoppingCartIconButton from "./shoppingCartIconButton";
-import { useMenu } from "../context/menuContext";
+import ShoppingCartIconButton from "../shoppingCart/shoppingCartIconButton";
+import { useMenu } from "../../context/menuContext";
 import { ToastContainer } from "react-toastify";
 import { useMediaQuery } from "@mui/material";
 import { Link } from "react-router-dom";

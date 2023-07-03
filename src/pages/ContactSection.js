@@ -1,9 +1,9 @@
 import { Container, TextField, Button, Typography } from "@mui/material";
 import ContactImg from "../img/contactUs.jpg";
-import NavbarCom from "../components/NavbarCom";
+import NavbarCom from "../features/navbar/NavbarCom";
 import { useMediaQuery } from "@mui/material";
-import ContentImgBg from "../components/ContentImgBg";
-import Footer from "../components/Footer";
+import ContentImgBg from "../layouts/ContentImgBg";
+import Footer from "../layouts/Footer";
 
 const ContactSection = () => {
   const isScreenBellow600px = useMediaQuery("(max-width:600px)");

@@ -6,10 +6,10 @@ import {
   AboutSection,
   ContactSection,
   SignUpSection,
-} from "./sections";
+} from "./pages";
 import { IoMdCall } from "react-icons/io";
 import { Button, Stack } from "@mui/material";
-import LoginSection from "./sections/LoginSection";
+import LoginSection from "./pages/LoginSection";
 
 const App = () => {
   return (
