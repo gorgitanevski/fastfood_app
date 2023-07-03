@@ -2,7 +2,7 @@
 
 # Application Name
 
-Coffe shop
+Fastfood App
 
 ## Description
 
