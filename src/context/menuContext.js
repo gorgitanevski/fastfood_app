@@ -40,13 +40,9 @@ const MenuProvider = ({ children }) => {
   };
 
   const removeItemFromCard = (cardItemId) => {
-<<<<<<< HEAD
     const updatedItems = sellectCartItem.filter(
       (item) => item.id !== cardItemId
     );
-=======
-    const updatedItems = sellectCartItem.filter((item) => item.id !== cardItemId);
->>>>>>> 17b78ed519ac31e686d91be5ba004b43f24bbcdc
     setSellectCartItem(updatedItems);
   };
 
