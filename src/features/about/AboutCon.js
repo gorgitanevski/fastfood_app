@@ -1,5 +1,5 @@
 import { Button, Container, Typography, useMediaQuery } from "@mui/material";
-import aboutImg from "../../img/about-1.jpg";
+import aboutImg from "../img/about-1.jpg";
 import { Link } from "react-router-dom";
 
 const AboutCon = ({ row }) => {

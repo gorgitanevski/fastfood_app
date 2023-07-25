@@ -1,5 +1,5 @@
 import { Container, TextField, Button, Typography } from "@mui/material";
-import ContactImg from "../img/contactUs.jpg";
+import ContactImg from "../features/img/contactUs.jpg";
 import NavbarCom from "../features/navbar/NavbarCom";
 import { useMediaQuery } from "@mui/material";
 import ContentImgBg from "../layouts/ContentImgBg";

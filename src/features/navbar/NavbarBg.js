@@ -1,7 +1,8 @@
 import React from "react";
 import NavbarCom from "./NavbarCom";
 import { Typography } from "@mui/material";
-import mainImg from "../../img/main.jpg";
+import mainImg from "../img/main.jpg";
+
 import { useMediaQuery } from "@mui/material";
 
 const NavbarBg = ({ heading }) => {

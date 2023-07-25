@@ -1,5 +1,5 @@
 import { Container, TextField, Button, Typography } from "@mui/material";
-import singUpImg from "../img/singUp.jpg";
+import singUpImg from "../features/img/singUp.jpg";
 import NavbarCom from "../features/navbar/NavbarCom";
 import { useMediaQuery } from "@mui/material";
 import { Link } from "react-router-dom";

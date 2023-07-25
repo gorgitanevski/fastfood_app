@@ -1,5 +1,5 @@
 import { Container, TextField, Button, Typography } from "@mui/material";
-import loginImg from "../img/login.jpg";
+import loginImg from "../features/img/login.jpg";
 import NavbarCom from "../features/navbar/NavbarCom";
 import { useMediaQuery } from "@mui/material";
 import { Checkbox } from "@mui/material";
