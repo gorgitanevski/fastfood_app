@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import { menuItems } from "../utils/contents";
 import MenuItemModal from "../features/menu/MenuItemModal";
 import { RotatingLines } from "react-loader-spinner";
+import NavbarCom from "../features/navbar/NavbarCom";
 
 const MenuSection = () => {
   const { data, isError, isLoading } = useFetchMenuQuery();
@@ -30,9 +31,12 @@ const MenuSection = () => {
 
   if (isError) {
     return (
-      <div className="flex justify-center items-center h-screen text-4xl font-semibold text-[#ED4E53]">
-        Error fatching data...
-      </div>
+      <>
+        <NavbarCom />
+        <div className="flex justify-center items-center h-screen text-4xl font-semibold text-[#ED4E53]">
+          Error fatching data...
+        </div>
+      </>
     );
   }
 
