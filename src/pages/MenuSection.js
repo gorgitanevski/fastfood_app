@@ -8,7 +8,7 @@ import MenuItemClick from "../features/menu/MenuItemClick";
 import { useEffect, useState } from "react";
 import { menuItems } from "../utils/contents";
 import MenuItemModal from "../features/menu/MenuItemModal";
-import { RotatingLines, TailSpin } from "react-loader-spinner";
+import { RotatingLines } from "react-loader-spinner";
 
 const MenuSection = () => {
   const { data, isError, isLoading } = useFetchMenuQuery();
