@@ -8,6 +8,7 @@ import MenuItemClick from "../features/menu/MenuItemClick";
 import { useEffect, useState } from "react";
 import { menuItems } from "../utils/contents";
 import MenuItemModal from "../features/menu/MenuItemModal";
+import { RotatingLines, TailSpin } from "react-loader-spinner";
 
 const MenuSection = () => {
   const { data, isError, isLoading } = useFetchMenuQuery();
@@ -28,11 +29,25 @@ const MenuSection = () => {
   }, [data, activeItem]);
 
   if (isError) {
-    return <div>Error fatching data</div>;
+    return (
+      <div className="flex justify-center items-center h-screen text-4xl font-semibold text-[#ED4E53]">
+        Error fatching data...
+      </div>
+    );
   }
 
   if (isLoading) {
-    return <div>isLoading</div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <RotatingLines
+          strokeColor="#ED4E53"
+          strokeWidth="5"
+          animationDuration="0.75"
+          width="96"
+          visible={true}
+        />
+      </div>
+    );
   }
 
   const handleItemClick = (items) => {
